@@ -54,4 +54,14 @@ public abstract class Transportation {
   public void setFare(double fare) {
     this.fare = fare;
   }
+
+  /*
+   * Abstract Methods
+   */
+  // Get the type of transportation
+  public abstract String getTransportationType();
+  // Get the details of the transportation
+  public abstract String getTransportationDetails();
+  // Calculate the fare of the transportation
+  public abstract double calculateFare();
 }
